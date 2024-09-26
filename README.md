@@ -13,6 +13,10 @@ This repository contains the data miner for my Flowry app. The data miner is des
 1. Install the necessary Python dependencies by running:
 
     ```bash
+    python3 -m venv myenv
+    ```
+
+    ```bash
     pip install -r requirements.txt
     ```
 
@@ -21,7 +25,7 @@ This repository contains the data miner for my Flowry app. The data miner is des
 3. Run the following command to start the Chrome WebDriver through Docker:
 
     ```bash
-    docker run -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size=2g selenium/standalone-chromium:latest
+    docker run -d -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size=2g selenium/standalone-chromium:latest
     ```
 
 ## Usage
