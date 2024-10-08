@@ -34,3 +34,8 @@ To start the data miner, use the following command:
 
 ```bash
 python data_miner.py
+```
+
+## NOTE
+
+I added the model training and classifcation code to this. I have to reconfigure some of the stuff to work as intended now in the future.
